@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="1.831" errors="0" skipped="0" tests="2" name="sample.api.SampleAPISpec">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/local/java/jdk1.6.0_23/jre/lib/amd64"/>
+    <property name="java.vm.version" value="19.0-b09"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="JP"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/hitoshi/IdeaProjects/rpscala29_base"/>
+    <property name="java.runtime.version" value="1.6.0_23-b05"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="basedir" value="/home/hitoshi/IdeaProjects/rpscala29_base"/>
+    <property name="java.endorsed.dirs" value="/usr/local/java/jdk1.6.0_23/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/local/java/jdk1.6.0_23/jre/lib/amd64/server:/usr/local/java/jdk1.6.0_23/jre/lib/amd64:/usr/local/java/jdk1.6.0_23/jre/../lib/amd64:/usr/local/java/jdk1.6.0_24/jre/lib/amd64/server:/usr/local/java/jdk1.6.0_24/jre/lib/amd64:/usr/local/java/jdk1.6.0_24/jre/../lib/amd64:.::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="surefire.test.class.path" value="/home/hitoshi/IdeaProjects/rpscala29_base/target/test-classes:/home/hitoshi/IdeaProjects/rpscala29_base/target/classes:/home/hitoshi/.m2/repository/org/scala-lang/scala-library/2.8.1/scala-library-2.8.1.jar:/home/hitoshi/.m2/repository/org/scalatra/scalatra_2.8.1/2.0.0.M3/scalatra_2.8.1-2.0.0.M3.jar:/home/hitoshi/.m2/repository/org/scalatra/scalatra-specs_2.8.1/2.0.0.M3/scalatra-specs_2.8.1-2.0.0.M3.jar:/home/hitoshi/.m2/repository/org/scala-tools/testing/specs_2.8.1/1.6.7/specs_2.8.1-1.6.7.jar:/home/hitoshi/.m2/repository/org/scala-lang/scala-compiler/2.8.1/scala-compiler-2.8.1.jar:/home/hitoshi/.m2/repository/org/scalatra/scalatra-test_2.8.1/2.0.0.M3/scalatra-test_2.8.1-2.0.0.M3.jar:/home/hitoshi/.m2/repository/org/eclipse/jetty/test-jetty-servlet/7.2.2.v20101205/test-jetty-servlet-7.2.2.v20101205.jar:/home/hitoshi/.m2/repository/org/eclipse/jetty/jetty-webapp/7.2.2.v20101205/jetty-webapp-7.2.2.v20101205.jar:/home/hitoshi/.m2/repository/org/eclipse/jetty/jetty-xml/7.2.2.v20101205/jetty-xml-7.2.2.v20101205.jar:/home/hitoshi/.m2/repository/org/eclipse/jetty/jetty-util/7.2.2.v20101205/jetty-util-7.2.2.v20101205.jar:/home/hitoshi/.m2/repository/org/eclipse/jetty/jetty-servlet/7.2.2.v20101205/jetty-servlet-7.2.2.v20101205.jar:/home/hitoshi/.m2/repository/org/eclipse/jetty/jetty-security/7.2.2.v20101205/jetty-security-7.2.2.v20101205.jar:/home/hitoshi/.m2/repository/org/eclipse/jetty/jetty-server/7.2.2.v20101205/jetty-server-7.2.2.v20101205.jar:/home/hitoshi/.m2/repository/org/eclipse/jetty/jetty-continuation/7.2.2.v20101205/jetty-continuation-7.2.2.v20101205.jar:/home/hitoshi/.m2/repository/org/eclipse/jetty/jetty-http/7.2.2.v20101205/jetty-http-7.2.2.v20101205.jar:/home/hitoshi/.m2/repository/org/eclipse/jetty/jetty-io/7.2.2.v20101205/jetty-io-7.2.2.v20101205.jar:/home/hitoshi/.m2/repository/org/apache/wicket/wicket/1.4.17/wicket-1.4.17.jar:/home/hitoshi/.m2/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar:/home/hitoshi/.m2/repository/org/slf4j/jul-to-slf4j/1.6.1/jul-to-slf4j-1.6.1.jar:/home/hitoshi/.m2/repository/org/slf4j/jcl-over-slf4j/1.6.1/jcl-over-slf4j-1.6.1.jar:/home/hitoshi/.m2/repository/ch/qos/logback/logback-classic/0.9.27/logback-classic-0.9.27.jar:/home/hitoshi/.m2/repository/ch/qos/logback/logback-core/0.9.27/logback-core-0.9.27.jar:/home/hitoshi/.m2/repository/ch/qos/logback/logback-access/0.9.27/logback-access-0.9.27.jar:/home/hitoshi/.m2/repository/javax/mail/mail/1.4.1/mail-1.4.1.jar:/home/hitoshi/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/home/hitoshi/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar:/home/hitoshi/.m2/repository/org/specs2/specs2_2.8.1/1.1/specs2_2.8.1-1.1.jar:/home/hitoshi/.m2/repository/org/mockito/mockito-all/1.8.5/mockito-all-1.8.5.jar:/home/hitoshi/.m2/repository/org/pegdown/pegdown/0.9.1/pegdown-0.9.1.jar:/home/hitoshi/.m2/repository/org/parboiled/parboiled-core/0.11.0/parboiled-core-0.11.0.jar:/home/hitoshi/.m2/repository/org/parboiled/parboiled-java/0.11.0/parboiled-java-0.11.0.jar:/home/hitoshi/.m2/repository/asm/asm/3.3.1/asm-3.3.1.jar:/home/hitoshi/.m2/repository/asm/asm-tree/3.3.1/asm-tree-3.3.1.jar:/home/hitoshi/.m2/repository/asm/asm-analysis/3.3.1/asm-analysis-3.3.1.jar:/home/hitoshi/.m2/repository/asm/asm-util/3.3.1/asm-util-3.3.1.jar:/home/hitoshi/.m2/repository/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.jar:/home/hitoshi/.m2/repository/com/googlecode/scalaz/scalaz-core_2.8.1/5.1-SNAPSHOT/scalaz-core_2.8.1-5.1-SNAPSHOT.jar:/home/hitoshi/.m2/repository/org/scala-tools/testing/scalacheck_2.8.1/1.8/scalacheck_2.8.1-1.8.jar:/home/hitoshi/.m2/repository/org/hamcrest/hamcrest-all/1.1/hamcrest-all-1.1.jar:/home/hitoshi/.m2/repository/junit/junit/4.8.2/junit-4.8.2.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Server Compiler"/>
+    <property name="os.version" value="2.6.35-28-generic"/>
+    <property name="user.home" value="/home/hitoshi"/>
+    <property name="user.timezone" value="Asia/Tokyo"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="user.name" value="hitoshi"/>
+    <property name="java.class.path" value="/home/hitoshi/.m2/repository/org/apache/maven/surefire/surefire-booter/2.7.2/surefire-booter-2.7.2.jar:/home/hitoshi/.m2/repository/org/apache/maven/surefire/surefire-api/2.7.2/surefire-api-2.7.2.jar"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/local/java/jdk1.6.0_23/jre"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="ja"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_23"/>
+    <property name="java.ext.dirs" value="/usr/local/java/jdk1.6.0_23/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.boot.class.path" value="/usr/local/java/jdk1.6.0_23/jre/lib/resources.jar:/usr/local/java/jdk1.6.0_23/jre/lib/rt.jar:/usr/local/java/jdk1.6.0_23/jre/lib/sunrsasign.jar:/usr/local/java/jdk1.6.0_23/jre/lib/jsse.jar:/usr/local/java/jdk1.6.0_23/jre/lib/jce.jar:/usr/local/java/jdk1.6.0_23/jre/lib/charsets.jar:/usr/local/java/jdk1.6.0_23/jre/lib/modules/jdk.boot.jar:/usr/local/java/jdk1.6.0_23/jre/classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="localRepository" value="/home/hitoshi/.m2/repository"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="0.005" classname="2092152486" name="get method for hello should return 200 status"/>
+  <testcase time="0.075" classname="1767692736" name="post method should return 404 status"/>
+</testsuite>
