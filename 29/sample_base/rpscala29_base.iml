@@ -4,7 +4,7 @@
     <facet type="scala" name="Scala">
       <configuration>
         <option name="compilerLibraryLevel" value="Project" />
-        <option name="compilerLibraryName" value="Maven: org.scala-lang:scala-compiler-bundle:2.8.1" />
+        <option name="compilerLibraryName" value="Maven: org.scala-lang:scala-compiler-bundle:WrappedArray(2.8.1)" />
         <option name="vmOptions" value="-Xss1m" />
       </configuration>
     </facet>

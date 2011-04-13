@@ -16,6 +16,7 @@ rpscala ２９ : IntelliJ IDEAではじめるScalaでつくるWicketアプリケ
 
 ### タイムテーブル
 全部で５８分。
+
 1. このへんの説明 ３分
 2. IntelliJの紹介 ５分
 3. デモ１：IntelliJ + Scala環境構築 １０分
@@ -35,19 +36,19 @@ rpscala ２９ : IntelliJ IDEAではじめるScalaでつくるWicketアプリケ
 
 IntelliJの紹介 （あと５５分）
 ----------
-正式名称：IntelliJ IDEA
+正式名称：IntelliJ IDEA  
 読み方：いんてりじぇー **あいであ** （いであじゃないよ！）
 
-最新バージョンは１０．０．３
-Ver．１は２００１年１月にリリースされ、今年で１０周年
-チェコのプラハにあるJetBrainsという会社が作っているそうです
+最新バージョンは１０．０．３  
+Ver．１は２００１年１月にリリースされ、今年で１０周年  
+チェコのプラハにあるJetBrainsという会社が作っているそうです  
 
-Javaで作られたJava用のIDEですがJava以外の言語にも対応
-Java Groovy Clojure **Scala** PHP Python Ruby C# ...etc
+Javaで作られたJava用のIDEですがJava以外の言語にも対応  
+Java Groovy Clojure **Scala** PHP Python Ruby ...etc
 
 ### ２つのエディション
-IntelliJ IDEAには２つのエディションがあります。
-http://www.jetbrains.com/idea/features/editions_comparison_matrix.html
+IntelliJ IDEAには２つのエディションがあります。  
+http://www.jetbrains.com/idea/features/editions_comparison_matrix.html  
 http://www.jetbrains.com/idea/buy/index.jsp
 
 **Community Edition**
