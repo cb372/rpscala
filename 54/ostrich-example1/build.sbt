@@ -1,4 +1,4 @@
-scalaVersion := "2.9.1"
+scalaVersion := "2.8.1"
 
 libraryDependencies ++= Seq(
   "com.twitter" % "ostrich" % "4.9.3"
