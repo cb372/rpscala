@@ -2,7 +2,7 @@ package example1
 
 import com.twitter.logging.Logger
 import com.twitter.ostrich.admin.{RuntimeEnvironment,Service}
-import com.twitter.ostrich.admin.config.ServerConfig
+import com.twitter.ostrich.admin.config._
 
 object Main {
 
@@ -11,6 +11,15 @@ object Main {
   def main(args: Array[String]) {
     val runtime = RuntimeEnvironment(this, args)
     val server = runtime.loadRuntimeConfig[MyServer]()
+
+	val adminConfig = new AdminServiceConfig {
+	  httpPort = 8888
+      statsNodes = new StatsConfig {
+        reporters = new TimeSeriesCollectorConfig
+      }
+    }
+    val admin = adminConfig()(runtime)
+
     log.info("Starting my server!")
     try {
       server.start()
